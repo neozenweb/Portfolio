@@ -33,14 +33,14 @@ html, body {
         padding-right: 30px;
 	}
 	.carouselcontainer {
-        order: 3;
+       
         width: auto;
         height: 40px !important;
         margin-top: 40px;
         height: 10%;
         -webkit-flex-direction: column;
         flex-direction: column;
-        justify-content: center;
+        justify-content: justify;
 	}
     .cardimg
     {
@@ -84,14 +84,14 @@ html, body {
 		padding-right: 30%;
 	}
 	.carouselcontainer {
-		order: 3;
+		
 		width: auto;
 		height: 15%;
         /* Safari */
-	   -webkit-flex-direction: row;
+	   -webkit-flex-direction: column;
 	   /* Safari 6.1+ */
-	   flex-direction: row;
-       justify-content: space-between;
+	   flex-direction: column;
+       justify-content: justify;
 	}
 	.footercontainer {
 		order: 4;
@@ -119,10 +119,10 @@ html, body {
 		width: auto;
 		height: 15%;
         /* Safari */
-	   -webkit-flex-direction: row;
+	   -webkit-flex-direction: column;
 	   /* Safari 6.1+ */
-	   flex-direction: row;
-       justify-content: space-between;
+	   flex-direction: column;
+       justify-content: justify;
 	}
 	.footercontainer {
 		order: 4;
@@ -160,10 +160,10 @@ html, body {
 		width: 90%;
 		height: 15%;
         /* Safari */
-	    -webkit-flex-direction: row;
+	    -webkit-flex-direction: column;
 	    /* Safari 6.1+ */
-	    flex-direction: row;
-        justify-content: space-between;
+	    flex-direction: column;
+        justify-content: justify;
 	}
 	.footercontainer {
 		order: 4;
@@ -187,8 +187,8 @@ html, body {
 	}
 }
 .carouselcontainer {
-	-webkit-display:flex;
-	display: flex;
+	-webkit-display:column;
+	display: column;
 	padding-top: 10px;
 	background-color: #FFFFFF;
 }
