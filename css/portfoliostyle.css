@@ -20,8 +20,31 @@ html, body {
 	}
 	.socialcontainer {
 		width: 100%;
-		order: 1;
 		font-size: 2em;
+	}
+	.portfolioimg{
+		width:100%;
+		float:unset;
+	}
+	.secfont {
+		font-family: 'Tangerine';
+		color: blue;
+		font-size:small;
+		font-weight:bold;
+	}
+    .captionstyle {
+	
+		line-break: normal;
+		padding-top:10%;
+		float:right;
+		color:blue;
+		position:relative;
+		font-size:small;
+		font-weight:bold;
+		font-family:'Tangerine';
+		width:90%;
+		left:0px;
+		text-align:center;
 	}
 	.maincontainer {
 		width: 60%;
@@ -74,7 +97,31 @@ html, body {
     {
         width: 15%;
     
-    }
+	}
+	.portfolioimg{
+		width:100%;
+		float: unset;
+	}
+	.secfont {
+		font-family: 'Tangerine';
+		color: blue;
+		font-size:small;
+		font-weight:bold;
+	}
+    .captionstyle {
+		 
+		line-break: normal;
+		float: right;
+		padding-top:10%;
+		color:blue;
+		position:relative;
+		font-size:small;
+		font-weight:bold;
+		font-family:'Tangerine';
+		width:50%;
+		left:0px;
+		text-align:center;
+	}
 	.maincontainer {
 		width: 100%;
 		height: 15em !important;
@@ -124,6 +171,30 @@ html, body {
 	   flex-direction: column;
        justify-content: justify;
 	}
+	.portfolioimg{
+		width:70%;
+		float:left;
+	}
+	.secfont {
+		font-family: 'Tangerine';
+		color: blue;
+		font-size:xx-large;
+		font-weight:bold;
+	}
+   .captionstyle {
+		
+		float:right;
+		padding-top:10%;
+		color:blue;
+		position:relative;
+		font-size:large;
+		font-weight:bold;
+		font-family:'Tangerine';
+		width:20%;
+		word-wrap: normal;
+		left:0px;
+		text-align:left;
+	}
 	.footercontainer {
 		order: 4;
 		font-size: 10px;
@@ -164,6 +235,30 @@ html, body {
 	    /* Safari 6.1+ */
 	    flex-direction: column;
         justify-content: justify;
+	}
+	.portfolioimg{
+		width:70%;
+		float:left;
+	}
+	.secfont {
+		font-family: 'Tangerine';
+		color: blue;
+		font-size:xx-large;
+		font-weight:bold;
+	}
+	.captionstyle {
+	
+		float:right;
+		padding-top:10%;
+		color:blue;
+		position:relative;
+		font-size:large;
+		font-weight:bold;
+		font-family:'Tangerine';
+		width:20%;
+		word-wrap: normal;
+		left:0px;
+		text-align:left;
 	}
 	.footercontainer {
 		order: 4;
@@ -216,6 +311,7 @@ html, body {
 	/* Safari 6.1+ */
 	margin-bottom: 5px;
 }
+
 @keyframes mainanim {
 	0% {
 		background-color: #00CCCC;
@@ -302,8 +398,10 @@ html, body {
 	padding-bottom: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
-	border: 2px double black
+	border: 2px double black;
 }
+
+
 .mainfont {
 	font-family: 'Tangerine';
 	font-weight: bold;
@@ -323,10 +421,9 @@ html, body {
 }
 .smfont {
 	font-family: 'Pacifico';
-	font-size: 20px;
+	font-size: medium;
 	font-weight: bold;
-	padding-left: 50px;
-}
+	}
 .topmenu {
 	top: 0px;
 	position: fixed;
@@ -352,11 +449,7 @@ html, body {
 	padding-left: 32px;
 	padding-right: 32px;
 }
-.secfont {
-	font-family: 'Indie Flower';
-	color: #BA75FF;
-	font-size: 20px;
-}
+
 .toppart {
 	padding: 50px;
 }
@@ -374,6 +467,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
+
 .cardimg {
 	border: 1px solid black;
 	height: 100%;
@@ -396,6 +490,7 @@ html, body {
 	-webkit-flex-direction: row;
 }
 .maincontainer {}
+
 .btninfo {
 	background-color: white;
 	padding-top: 10px;
